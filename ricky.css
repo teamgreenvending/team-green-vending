@@ -57,20 +57,18 @@ footer{
 	height: 2.5rem;
 }
 
-@media only screen and (max-width: 400px){
-	type1{
-		width: 70%
-		height: 70%
-	}
-	
+@media screen and (min-width: 641px) {
+.type1 {
+    height: 850px;
+    width: 750px;
+}
 }
 
-@media only screen and (max-width: 400px){
-	type2{
-		width: 70%
-		height: 70%
-	}
-	
+@media screen and (min-width: 641px) {
+.type2 {
+    height: 850px;
+    width: 750px;
+}
 }
 
 div.transbox {
