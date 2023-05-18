@@ -57,6 +57,14 @@ footer{
 	height: 2.5rem;
 }
 
+#Main {
+	position:relative;
+	width 65%;
+	top: 105px;
+	left: 220px;
+}
+<div id="Main"><img src="vending.png" style="position:relative;width:100%;"></div>
+
 div.transbox {
   background-color: rgba(255, 255, 255, 0.4);
   -webkit-backdrop-filter: blur(5px);
