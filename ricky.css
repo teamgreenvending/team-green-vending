@@ -58,7 +58,15 @@ footer{
 }
 
 @media only screen and (max-width: 400px){
-	body{
+	type1{
+		width: 70%
+		height: 70%
+	}
+	
+}
+
+@media only screen and (max-width: 400px){
+	type2{
 		width: 70%
 		height: 70%
 	}
