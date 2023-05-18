@@ -72,8 +72,8 @@ footer{
 
 @media screen and (min-width: 641px) {
 .logo {
-    height: 850px;
-    width: 750px;
+    height: 100px;
+    width: 200px;
 }
 }
 div.transbox {
