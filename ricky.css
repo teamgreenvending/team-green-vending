@@ -57,12 +57,6 @@ footer{
 	height: 2.5rem;
 }
 
-.responsive{
-	width: 100%;
-	max-width" 100%;
-	height: auto;
-}
-
 div.transbox {
   background-color: rgba(255, 255, 255, 0.4);
   -webkit-backdrop-filter: blur(5px);
