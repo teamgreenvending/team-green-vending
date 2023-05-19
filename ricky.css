@@ -42,7 +42,7 @@ table {
   position: absolute;
   top: 5%;
   left: 40%;
-  visibility: visible;
+  visibility: collapse;
 }
 
 .phonepicture {
