@@ -1,69 +1,75 @@
-html{
-	background-color: darkgreen;
+html {
+  background-color: darkgreen;
 }
 
-body{
-	color: darkgreen;
-	background-color: darkgreen;
+body {
+  color: darkgreen;
+  background-color: darkgreen;
 }
 
-font{
-	color:black;
+font {
+  color: black;
 }
 
-p{
-	color: white;
+p {
+  color: white;
 }
 
-body{
-	color: white;
+body {
+  color: white;
 }
 
-article{
-	background-color: darkgreen;
+article {
+  background-color: darkgreen;
 }
 
-table.center{
-	margin-left: left;
-	margin-right: right;
+table.center {
+  margin-left: left;
+  margin-right: right;
 }
 
 body {
   background: darkgreen;
 }
 
-table{
-	margin: 0px;
-	padding: 0px;
+table {
+  margin: 0;
+  padding: 0;
 }
 
-.type1{
-	width: 30%;
-	display: block;
-	margin: 50px;
+.picture {
+  width: 30%;
+  position: absolute;
+  top: 5%;
+  left: 40%;
+  visibility: visible;
 }
 
-.type2{
-	width: 30%;
-	position: absolute;
-	top: 5%;
-	left: 40%;
+.phonepicture {
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  visibility: hidden;
+  display: none;
 }
 
-footer{
-	position: absolute;
-	bottom: 0;
-	width: 95%;
-	height: 2.5rem;
+@media only screen and (min-width: 414px) {}
+  .phonepicture {
+    visibility: visible;
+  }
+
+  .picture {
+  	visibility: collapse;
+  }
 }
 
-#Main {
-	position:relative;
-	width 65%;
-	top: 50px;
-	left: 220px;
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 95%;
+  height: 2.5rem;
 }
-<div id="Main"><img src="vending.png" style="position:relative;width:100%;"></div>
 
 div.transbox {
   background-color: rgba(255, 255, 255, 0.4);
